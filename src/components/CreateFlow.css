@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:rgb(252, 250, 250);
+       text-align:center;
+       font-family: 'Quicksand', sans-serif;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    line-height:100px;
+    color:#2B2E4A
+}
+.title1{
+    font-size:26px;
+    color:#2B2E4A;
+    font-weight:700;
+}
+input{
+    padding:5px;
+    border-radius: 8px;
+    width:70%;
+    height:30px;
+    font-size:15px;
+    border: 2px solid #ccc;
+    padding-left:35px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:700;
+    color: #2B2E4A;
+
+}
+.input1{
+    text-align:center;
+    line-height:60px;
+    font-family: 'Quicksand', sans-serif;
+    padding:10px;
+    color: #2B2E4A;
+
+}
+button{ 
+    padding:5px;
+    width: 39%;;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #ccc; 
+}
+button:active{
+    box-shadow: 1px 1px 1px rgb(183, 175, 175);
+}
+
+.form-box{
+    width: 400px;
+    height:430px;
+    position:relative;
+    margin: 6% auto;
+    background-color:#fff;
+    padding: 5px;
+    border-radius:8px;
+    line-height:50px;
+    box-shadow: 0px 4px 10px rgba(43, 46, 74, 0.17);
+}
+.ortag {
+    text-align:center;
+    display:flex;
+    width: 70%;
+    margin-left:60px  
+
+}
+.ortag hr{
+    color: #000;
+}
+.btngoogle{
+    width: 80%;
+    height:45px;
+    border-radius:8px;
+    background-color:white;
+    color: black;
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:bold;  
+}
+
+.btn{
+    height:45px;
+    border-radius:8px;
+    background-color:rgb(10, 25, 239);
+    color: white;
+    font-size: 15px;
+    border-color: gray;
+    border-color:transparent gray;
+    opacity: 0.8;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+.btn-cancel{
+    font-weight:bold;
+    height:45px;
+    border-radius:8px;
+    background-color:white;
+    color: #2B2E4A;
+    font-size: 15px;
+    border: 2px solid #2B2E4A;
+
+    opacity: 0.8;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.logo{
+    width: 220px;
+    margin-top:30px;
+    line-height:50px;
+}
+.control-label{
+    line-height:50px;
+}
+.textlogin{
+    font-size:18px;
+    height:45px;
+    line-height:30px;
+}
+
+.textlogin b {
+    color:rgb(10, 25, 239);
+}
+
+.fa{
+    position: absolute;
+    font-size:18px;
+    opacity: 0.7;
+    padding-top: 21px;
+    min-width: 40px;
+
+}
+.fa1{
+    position: absolute;
+    font-size:18px;
+    padding-top: 15px;
+    min-width: 40px;
+    padding-left: 50px;
+    color: #2B2E4A;
+    font-weight: bold;
+    
+}
+
+.Navbar{
+    background-color: #fff;
+    line-height:60px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 1px 1px 4px #666;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top:20px;
+
+}
+
+.btn-logout{
+    font-weight:bolder;
+    height:45px;
+    border-radius:8px;
+    background-color:white; 
+    color: #2B2E4A;
+    font-size: 15px;
+    border: 2px solid #2B2E4A;
+    opacity: 0.8;
+    font-family: 'Quicksand', sans-serif;
+    width: 160px;
+    margin-left:40px;
+}
+
+.btn-flow{
+    margin-left:15px
+}
